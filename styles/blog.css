@@ -1,0 +1,59 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 31px 160px;
+    list-style: none;
+}
+.main-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.btn-01{
+    font-weight: 600px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+    color: rgb(0, 106, 80);
+}
+
+*{
+    margin: 0;
+}
+
+.banner{
+
+margin: auto;
+flex-direction: row;
+border-radius: 24px;
+padding: 80px 100px 80px 100px;
+background-color: rgb(198, 228, 214);
+}
+.banner-logo{
+    margin: 160px;
+
+}
+.font-clr{
+    color: rgba(14, 14, 14, 0.5);
+}
+.btn-primary{
+    
+   background-color:rgb(0, 106, 80);
+}
+.banner-logo{
+    justify-content: right;
+}
+.pillars{
+    margin: 160px;
+    display: flex;
+    gap: 24px;
+}
+.pillar{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+}
+
+
+
+
