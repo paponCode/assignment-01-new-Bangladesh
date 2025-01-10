@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 31px 160px;
+    margin: 35px 180px;
     list-style: none;
 }
 .main-title{
@@ -17,24 +17,27 @@
     color: rgb(0, 106, 80);
 }
 
-*{
+.all{
     margin: 0;
 }
 
 .banner{
-
-margin: auto;
-flex-direction: row;
+background-position: center;
+    
+     text-align:left ;
+     margin-top: 160px;
 border-radius: 24px;
 padding: 80px 100px 80px 100px;
 background-color: rgb(198, 228, 214);
 }
 .banner-logo{
-    margin: 160px;
+    background-position: center;
+    margin: 200px;
 
 }
 .font-clr{
-    color: rgba(14, 14, 14, 0.5);
+    font-weight: 700;
+    
 }
 .btn-primary{
     
@@ -44,16 +47,32 @@ background-color: rgb(198, 228, 214);
     justify-content: right;
 }
 .pillars{
-    margin: 160px;
+    
     display: flex;
     gap: 24px;
 }
 .pillar{
-    padding: 30px;
+    padding: 32px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 16px;
 }
 
+.main-pillar{
+    margin: 180px;
+}
+.development{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    display: flex;
+    gap: 24px;
+    border-width: 500px;
+    padding: 32px;
+}
+.bd-pm{
+    
+margin: 30px;
+border-radius: 16px;
+border-color: rgb(95, 7, 7);
 
-
-
+    
+}
