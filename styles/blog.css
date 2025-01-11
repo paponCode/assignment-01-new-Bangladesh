@@ -21,27 +21,38 @@
     margin: 0;
 }
 
-.banner{
-background-position: center;
-    
-     text-align:left ;
-     margin-top: 160px;
-border-radius: 24px;
-padding: 80px 100px 80px 100px;
-background-color: rgb(198, 228, 214);
+.main-banner{
+    display: flex;
+    border-radius: 10px;
+   padding: 130px 150px;
+    text-align: left;
+    margin-top: 130px;
+    background-color: rgb(198, 228, 214);
+    background-position: 180px;
 }
-.banner-logo{
-    background-position: center;
-    margin: 200px;
 
+     
+
+.banner-logo{
+    
+}   
+.btn-font{
+    color: rgb(255, 255, 255);
 }
+
 .font-clr{
     font-weight: 700;
     
 }
 .btn-primary{
-    
-   background-color:rgb(0, 106, 80);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    justify-content: center;
+align-items: center;
+    width: 270px;
+height: 56px;
+    border-radius: 8px;
+background: rgb(0, 106, 80);
+ 
 }
 .banner-logo{
     justify-content: right;
@@ -60,19 +71,71 @@ background-color: rgb(198, 228, 214);
 .main-pillar{
     margin: 180px;
 }
-.development{
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    border-radius: 16px;
+.development-part{
     display: flex;
     gap: 24px;
-    border-width: 500px;
+}
+.development{
     padding: 32px;
-}
-.bd-pm{
-    
-margin: 30px;
-border-radius: 16px;
-border-color: rgb(95, 7, 7);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+        
+    }
+    .bd-pm{
 
-    
+        background-color: #FFF8F3;
+        background-image: url(./assets/quote-bg.png);
+   
+        margin:  32px ;
+        
+ 
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
 }
+.dev1{
+    
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+
+}
+.dev2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+.dev3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207)
+}
+.btn-dev1{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: center;
+    width: 122px;
+height: 41px;
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgb(84, 144, 245)
+}
+.btn-dev2{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 122px;
+height: 41px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+}
+
+.btn-dev3{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 122px;
+height: 41px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57)
+}
+
+
+
